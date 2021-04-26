@@ -1,0 +1,143 @@
+body {
+    background-color: #0a192f;
+}
+
+/* How to use fonts
+    font-family: 'Chilanka', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ */
+.navbar-container {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.logo-text {
+    text-decoration: none;
+}
+
+.logo-text h3 {
+    font-family: 'Chilanka', cursive;
+    color: #64FFDA;
+}
+
+.portfolio-link {
+    color: #CCD6F6;
+    text-decoration: none;
+    background-color: rgba(100, 255, 218, 0.1);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.portfolio-link:hover {
+    color: #64FFDA;
+}
+
+.header-title-info {
+    /*background-color: yellow;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-weight: 600;
+    color: #CCD6F6;
+}
+
+.sub-title {
+    color:  #64FFDA;
+}
+
+.header-greet-info {
+    /*background-color: salmon;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #CCD6F6;
+}
+
+.projects-container {
+    margin-top: 25px;
+    /*padding-left: 0;*/
+    /*border-bottom: 2px solid #cccccc;*/
+}
+
+/* Table Specific CSS*/
+.archive-table th {
+    /*padding: 20px;*/
+    /*box-sizing: border-box;*/
+}
+
+/*.archive-table tr > th:first-child {*/
+/*    padding-left: 0;*/
+/*}*/
+
+/*.archive-table tr > td:first-child {*/
+/*    padding-left: 0;*/
+/*}*/
+
+.archive-table td {
+    border: none;
+    padding: 12px 8px 12px 8px;
+    box-sizing: border-box;
+}
+
+.archive-table td a {
+    text-decoration: none;
+    color: #8892B0;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.archive-table td a:hover {
+    color: #64FFDA;
+}
+
+.archive-table thead > tr {
+    color: #8892B0;
+    font-size: 18px;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+.archive-table tr > td:nth-child(5) {
+    color: #64FFDA;
+}
+
+.archive-table tr > td:nth-child(1) {
+    color: #64FFDA;
+    /*font-weight: bold;*/
+}
+
+.archive-table tr > td:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #CCD6F6;
+}
+
+.archive-table tr > td {
+    color: #8892B0;
+}
+
+.archive-table tr > th {
+    border: none;
+}
+
+.archive-table tbody > tr:hover {
+    background-color: #172A45;
+}
+
+/* Footer Specific CSS */
+.footer-container {
+    padding: 25px;
+    color: #8892B0;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.footer-container span:hover {
+    color: #64FFDA;
+    cursor: pointer;
+}
